@@ -90,7 +90,7 @@ img {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 828px) {
   #nav {
 flex-direction: column;
 justify-content: center;
