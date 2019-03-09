@@ -49,12 +49,16 @@ li {
   #nav {
   padding: 0;
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   }
 
   #nav li {
   margin: 0;
   padding: 0;
   border-bottom: 1px solid #ccc;
+
   }
 
   #nav a:link, #nav a:visited {
@@ -65,6 +69,8 @@ li {
     text-align: center;
     font-weight: bold;
     text-decoration: none;
+
+
 }
 
   #nav a:hover, #nav a:active {
@@ -81,4 +87,12 @@ img {
   font-family: 'Oswald', Helvetica, sans-serif;
   font: 1em;
   background-color: #FAD7A0  ;
+}
+
+
+@media (max-width: 600px) {
+  #nav {
+flex-direction: column;
+justify-content: center;
+}
 }
