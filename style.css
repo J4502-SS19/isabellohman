@@ -88,7 +88,7 @@ img {
   background-color: #FAD7A0  ;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 828px) {
 
   #nav {
 flex-direction: row;
