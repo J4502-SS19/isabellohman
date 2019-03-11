@@ -89,10 +89,9 @@ img {
 }
 
 @media (min-width: 1000px) {
-
   #nav {
 flex-direction: row;
 justify-content: space-around;
 background-color: #98bf21;
-}
+    }
 }
