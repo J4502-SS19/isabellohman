@@ -51,7 +51,6 @@ li {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   }
 
   #nav li {
@@ -90,7 +89,7 @@ img {
 }
 
 @media (min-width: 600px) {
-  
+
   #nav {
 flex-direction: row;
 flex-wrap: wrap;
