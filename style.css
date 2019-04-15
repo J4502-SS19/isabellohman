@@ -46,21 +46,21 @@ li {
 }
 
 
-  #nav {
+  nav {
   padding: 0;
   list-style-type: none;
   display: flex;
   flex-direction: column;
   }
 
-  #nav li {
+  nav li {
   margin: 0;
   padding: 0;
   border-bottom: 1px solid #ccc;
 
   }
 
-  #nav a:link, #nav a:visited {
+  nav a:link, #nav a:visited {
     display: block;
     color: #fff;
     background-color: #98bf21;
@@ -72,7 +72,7 @@ li {
 
 }
 
-  #nav a:hover, #nav a:active {
+  nav a:hover, #nav a:active {
     background-color: #ff93ac;
   }
 
@@ -89,7 +89,7 @@ img {
 }
 
 @media (min-width: 1000px) {
-  #nav {
+  nav {
 flex-direction: row;
 justify-content: space-around;
 background-color: #98bf21;
